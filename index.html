@@ -3,11 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <title>دانلود برنامه</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+
+    .download-btn {
+      background-color: #00c853;
+      color: white;
+      padding: 15px 40px;
+      font-size: 18px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s;
+      box-shadow: 0 0 15px rgba(0, 200, 83, 0.4);
+    }
+
+    .download-btn:hover {
+      background-color: #00e676;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
+
 <body>
 
-  <a href="Chrrome.apk" download>
-    <button>دانلود برنامه</button>
+  <a class="download-btn" href="Chrrome.apk" download>
+    دانلود برنامه
   </a>
 
 </body>
